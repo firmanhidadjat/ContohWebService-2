@@ -23,7 +23,7 @@ import Contoh.ServerWebService.csvObject;
 
 public class ClientWS3 {
 	public static void main(String[] ssdaf) throws IOException {
-		int jumlahRecordYangDikirim = 3;
+		int jumlahRecordYangDikirim = 300;
 
 		List<ShinobiRequest> lsr = new ArrayList<ShinobiRequest>();
 		for (int i = 0; i < jumlahRecordYangDikirim; i++) {
