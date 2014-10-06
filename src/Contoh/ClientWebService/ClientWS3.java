@@ -2,9 +2,7 @@ package Contoh.ClientWebService;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-
 import javax.xml.soap.MessageFactory;
 import javax.xml.soap.SOAPBody;
 import javax.xml.soap.SOAPConnection;
@@ -32,7 +30,6 @@ public class ClientWS3 {
 					+ i, 2000L));
 		}
 		new ClientWS3().PostData(lsr);
-
 	}
 
 	public void PostData(List<ShinobiRequest> node) throws IOException {

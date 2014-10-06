@@ -27,7 +27,7 @@ public class ClientWS {
 		List<csvObject> lsd = new ArrayList<csvObject>();
 		lsd = ngisiListShinobi(jumlahRecordYangDikirim);
 			// Kirim satu buah request berupa List yang berisi 100 baris
-			new ClientWS().PostData(lsd);
+			new ClientWS().PostData(lsd);	
 	}
 
 	// Method ini hanya buat ngisi List saja (untuk keperluan contoh saja)
